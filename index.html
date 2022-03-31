@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Calculator</title>
-	<!--wolff(web open font format) : bilgisayarda mevcut olmayan fontları kullanmak için web üzerinden kullanılabilen veya indirilebilen, fontların paketlenmiş hali-->
+	<!--woff(web open font format) : bilgisayarda mevcut olmayan fontları kullanmak için web üzerinden kullanılabilen veya indirilebilen, fontların paketlenmiş hali-->
 	<link href="https://fonts.googleapis.com/css?family=Orbitron " rel="stylesheet">
 	<!-- jquery kütüphanesini import etme-->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -39,11 +39,11 @@
 				<td><input type="button" value="1" onclick="insertCharacter(1)"></td>
 				<td><input type="button" value="2" onclick="insertCharacter(2)"></td>
 				<td><input type="button" value="3" onclick="insertCharacter(3)"></td>
-				<!--rowspan : satır üzerinde kaç tane hücrenin birleştirileği-->
+				<!--rowspan : bir hücrenin kapladığı satır sayısını ayarlar-->
 				<td rowspan=2><input type="button" value="=" onclick="result()"  style="height: 158px; background-color: green"></td>
 			</tr>
 			<tr>
-				<!--colspan: sütun üzerinde kaç tane hücrenin birleştirileceği-->
+				<!--colspan: bir hücrenin kapladığı sütun sayısını ayarlar-->
 				<td colspan="2"><input type="button" value="0" onclick="insertCharacter(0)" style="width: 158px; ;"></td>
 				<td><input type="button" value="." onclick="insertCharacter('.')"></td>
 			</tr>
